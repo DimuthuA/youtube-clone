@@ -42,7 +42,7 @@ const Feed = () => {
           Copyright 2023 XYZ Inc.
         </Typography>
       </Box>
-      <Box padding={2} overflowy='auto' height='90vh' flex={2}>
+      <Box padding={2} height='90vh' flex={2} sx={{overflowY: 'auto'}}>
         <Typography
           variant='h4'
           fontWeight='bold'
